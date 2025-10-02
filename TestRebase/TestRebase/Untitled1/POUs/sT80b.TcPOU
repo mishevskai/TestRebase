@@ -2,11 +2,8 @@
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
   <POU Name="sT80b" Id="{3cf6e9b3-e801-41fd-874b-1d437fea11c0}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK sT80b
-VAR_INPUT
-END_VAR
-VAR_OUTPUT
-END_VAR
 VAR
+	Ivana2 : BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
