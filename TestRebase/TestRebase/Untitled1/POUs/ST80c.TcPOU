@@ -7,6 +7,7 @@ END_VAR
 VAR_OUTPUT
 END_VAR
 VAR
+	Ivana3	: BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
