@@ -2,18 +2,27 @@
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
   <POU Name="ST80a" Id="{ebc57cc3-e53c-4a10-a66c-718a2d623872}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK ST80a
-VAR_INPUT
-END_VAR
-VAR_OUTPUT
-END_VAR
 VAR
+	_promenlivaIvana	: BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[]]></ST>
     </Implementation>
+    <Method Name="_Ready" Id="{1c117af2-23f0-45c4-ae45-7896f814997b}">
+      <Declaration><![CDATA[METHOD PROTECTED _Ready 
+VAR_INPUT
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
     <LineIds Name="ST80a">
       <LineId Id="9" Count="0" />
+    </LineIds>
+    <LineIds Name="ST80a._Ready">
+      <LineId Id="5" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
