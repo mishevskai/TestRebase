@@ -12,7 +12,7 @@ END_VAR
       <ST><![CDATA[]]></ST>
     </Implementation>
     <Method Name="_Ready" Id="{1c117af2-23f0-45c4-ae45-7896f814997b}">
-      <Declaration><![CDATA[METHOD PROTECTED _Ready 
+      <Declaration><![CDATA[METHOD  _Ready 
 VAR_INPUT
 END_VAR
 ]]></Declaration>
