@@ -4,6 +4,7 @@
     <Declaration><![CDATA[FUNCTION_BLOCK ST80a
 VAR
 	_promenlivaIvana	: BOOL;
+	_test : BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -15,7 +16,8 @@ VAR_INPUT
 END_VAR
 ]]></Declaration>
       <Implementation>
-        <ST><![CDATA[]]></ST>
+        <ST><![CDATA[_test:= TRUE; 
+_promenlivaIvana:= TRUE; ]]></ST>
       </Implementation>
     </Method>
     <LineIds Name="ST80a">
@@ -23,6 +25,7 @@ END_VAR
     </LineIds>
     <LineIds Name="ST80a._Ready">
       <LineId Id="5" Count="0" />
+      <LineId Id="9" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
