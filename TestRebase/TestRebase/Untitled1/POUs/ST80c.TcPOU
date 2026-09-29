@@ -2,16 +2,35 @@
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
   <POU Name="ST80c" Id="{6511e522-115d-43cb-a766-5883ce869da5}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK ST80c
-VAR_INPUT
-END_VAR
-VAR_OUTPUT
-END_VAR
 VAR
 	_promenlivaNova		: BOOL;
+	_ivana : INT;
+	_test : BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[]]></ST>
     </Implementation>
+    <Method Name="_test" Id="{4745666f-855a-404a-9b5b-260c04e7b323}">
+      <Declaration><![CDATA[METHOD _test : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[IF _test THEN 
+	_ivana:= 5;
+ELSE 
+_ivana:= 3; 
+END_IF  ]]></ST>
+      </Implementation>
+    </Method>
+    <LineIds Name="ST80c">
+      <LineId Id="2" Count="0" />
+    </LineIds>
+    <LineIds Name="ST80c._test">
+      <LineId Id="6" Count="0" />
+      <LineId Id="5" Count="0" />
+      <LineId Id="7" Count="2" />
+    </LineIds>
   </POU>
 </TcPlcObject>

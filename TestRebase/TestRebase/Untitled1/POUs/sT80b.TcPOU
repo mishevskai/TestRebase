@@ -4,6 +4,7 @@
     <Declaration><![CDATA[FUNCTION_BLOCK sT80b
 VAR
 	_promenlivataNaFilip : BOOL;
+	_test : BOOL; 
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -15,8 +16,16 @@ VAR_INPUT
 END_VAR
 ]]></Declaration>
       <Implementation>
-        <ST><![CDATA[_promenlivataNaFilip:= TRUE;]]></ST>
+        <ST><![CDATA[_promenlivataNaFilip:= TRUE;
+_test:= FALSE;]]></ST>
       </Implementation>
     </Method>
+    <LineIds Name="sT80b">
+      <LineId Id="2" Count="0" />
+    </LineIds>
+    <LineIds Name="sT80b._test">
+      <LineId Id="2" Count="0" />
+      <LineId Id="6" Count="0" />
+    </LineIds>
   </POU>
 </TcPlcObject>
