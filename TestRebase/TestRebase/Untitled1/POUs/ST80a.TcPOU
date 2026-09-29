@@ -5,6 +5,7 @@
 VAR
 	_promenlivaIvana	: BOOL;
 	_test : BOOL;
+	_ivana : BOOL; 
 END_VAR
 ]]></Declaration>
     <Implementation>
