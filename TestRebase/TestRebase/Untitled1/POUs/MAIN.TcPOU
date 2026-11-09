@@ -8,14 +8,14 @@ VAR
 	_ST80c		: ST80c; 
 	_testP		: INT;
 	_testIvana : BOOL; 
-	_test : BOOL; 
+//	_test : BOOL; 
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[_ST80a._Ready(); 
 _testP:= 10; 
-_testIvana:= TRUE; 
-_test:= FALSE; ]]></ST>
+//_testIvana:= TRUE; 
+//_test:= FALSE; ]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="20" Count="0" />
