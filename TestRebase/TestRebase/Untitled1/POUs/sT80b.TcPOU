@@ -3,7 +3,6 @@
   <POU Name="sT80b" Id="{3cf6e9b3-e801-41fd-874b-1d437fea11c0}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK sT80b
 VAR
-	_promenlivataNaFilip : BOOL;
 	_test : BOOL; 
 END_VAR
 ]]></Declaration>
@@ -16,7 +15,7 @@ VAR_INPUT
 END_VAR
 ]]></Declaration>
       <Implementation>
-        <ST><![CDATA[_promenlivataNaFilip:= TRUE;
+        <ST><![CDATA[
 _test:= FALSE;]]></ST>
       </Implementation>
     </Method>
