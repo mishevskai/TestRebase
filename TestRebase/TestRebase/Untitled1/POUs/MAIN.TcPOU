@@ -6,14 +6,12 @@ VAR
 	_ST80a		: ST80a;
 	_ST80b		: sT80b; 
 	_ST80c		: ST80c; 
-	_test : BOOL;  
-	_new : BOOL; 
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[_ST80a._Ready(); 
-_test:= TRUE;
-_new:= TRUE;]]></ST>
+//_test:= TRUE;
+//_new:= TRUE;]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="12" Count="0" />
