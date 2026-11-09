@@ -8,17 +8,20 @@ VAR
 	_ST80c		: ST80c; 
 	_testP		: INT;
 	_testIvana : BOOL; 
+	_test : BOOL; 
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[_ST80a._Ready(); 
 _testP:= 10; 
-_testIvana:= TRUE; ]]></ST>
+_testIvana:= TRUE; 
+_test:= FALSE; ]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="20" Count="0" />
       <LineId Id="31" Count="0" />
       <LineId Id="33" Count="0" />
+      <LineId Id="35" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
