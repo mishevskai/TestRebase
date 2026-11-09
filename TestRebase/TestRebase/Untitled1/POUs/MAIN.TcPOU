@@ -6,21 +6,15 @@ VAR
 	_ST80a		: ST80a;
 	_ST80b		: sT80b; 
 	_ST80c		: ST80c; 
-	_test : BOOL; 
-	_newVariable : BOOL; 
-	_ivana	: INT; 
+	_test : BOOL;  
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[_ST80a._Ready(); 
-_test:= TRUE; 
-_newVariable:= FALSE; 
-_ivana:= 5; ]]></ST>
+_test:= TRUE; ]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="12" Count="0" />
-      <LineId Id="14" Count="0" />
-      <LineId Id="16" Count="0" />
       <LineId Id="18" Count="0" />
     </LineIds>
   </POU>
